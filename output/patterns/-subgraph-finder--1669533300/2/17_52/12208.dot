@@ -1,0 +1,5 @@
+digraph "12208" {
+1 [label="EGroumGraph.isEmpty()" shape=box]
+2 [label="EGroumGraph" shape=ellipse]
+2 -> 1 [label="recv"];
+}

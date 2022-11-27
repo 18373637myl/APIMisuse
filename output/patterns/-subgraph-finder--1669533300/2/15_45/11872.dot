@@ -1,0 +1,5 @@
+digraph "11872" {
+1 [label="EGroumBuilder.buildHierarchy()" shape=box]
+2 [label="EGroumBuilder" shape=ellipse]
+2 -> 1 [label="recv"];
+}

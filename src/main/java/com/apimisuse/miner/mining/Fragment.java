@@ -1,14 +1,14 @@
 package com.apimisuse.miner.mining;
 
-import de.tu_darmstadt.stg.mudetect.aug.model.*;
-import de.tu_darmstadt.stg.mudetect.aug.model.data.VariableNode;
-import edu.iastate.cs.egroum.dot.DotGraph;
+import com.apimisuse.aug.model.*;
+import com.apimisuse.aug.model.data.VariableNode;
+import com.apimisuse.egroum.dot.DotGraph;
 
 import java.io.File;
 import java.util.*;
 
-import static de.tu_darmstadt.stg.mudetect.aug.model.Edge.Type.DEFINITION;
-import static de.tu_darmstadt.stg.mudetect.aug.model.Edge.Type.THROW;
+import static com.apimisuse.aug.model.Edge.Type.DEFINITION;
+import static com.apimisuse.aug.model.Edge.Type.THROW;
 import static com.apimisuse.miner.mining.Configuration.DataNodeExtensionStrategy.*;
 
 /**

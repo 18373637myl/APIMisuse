@@ -5,6 +5,7 @@ package com.apimisuse.miner.mining;
 
 import com.apimisuse.aug.model.*;
 import com.apimisuse.aug.model.data.LiteralNode;
+import com.apimisuse.egroum.aug.AUGConfiguration;
 import com.apimisuse.egroum.utils.FileIO;
 
 import java.io.File;

@@ -1,0 +1,10 @@
+digraph "9769" {
+1 [label="String.substring()" shape=box]
+2 [label="int" shape=ellipse]
+3 [label="String.lastIndexOf()" shape=box]
+4 [label="int" shape=ellipse]
+2 -> 1 [label="para"];
+3 -> 2 [label="def"];
+3 -> 1 [label="order"];
+4 -> 1 [label="para"];
+}

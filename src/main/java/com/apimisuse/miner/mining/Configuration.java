@@ -1,6 +1,6 @@
 package com.apimisuse.miner.mining;
 
-import de.tu_darmstadt.stg.mudetect.InstanceMethodCallPredicate;
+import com.apimisuse.miner.mining.InstanceMethodCallPredicate;
 import com.apimisuse.aug.model.Node;
 import com.apimisuse.aug.model.controlflow.*;
 import com.apimisuse.aug.model.dataflow.DefinitionEdge;

@@ -1,0 +1,7 @@
+digraph "6080" {
+1 [label="EGroumGraph.mergeSequentialData()" shape=box]
+2 [label="Type" shape=ellipse]
+3 [label="EGroumGraph.mergeSequentialData()" shape=box]
+2 -> 1 [label="para"];
+2 -> 3 [label="para"];
+}

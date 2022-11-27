@@ -1,0 +1,11 @@
+digraph "7838" {
+1 [label="EGroumGraph.buildArgumentPDG()" shape=box]
+2 [label="String" shape=ellipse]
+3 [label="EGroumGraph" shape=ellipse]
+4 [label="EGroumNode" shape=ellipse]
+5 [label="UNKNOWN" shape=ellipse]
+2 -> 1 [label="para"];
+3 -> 1 [label="recv"];
+4 -> 1 [label="para"];
+5 -> 1 [label="para"];
+}

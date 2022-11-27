@@ -1,0 +1,5 @@
+digraph "9860" {
+1 [label="Collection.clear()" shape=box]
+2 [label="HashSet" shape=ellipse]
+2 -> 1 [label="recv"];
+}

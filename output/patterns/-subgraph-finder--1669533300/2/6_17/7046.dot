@@ -1,0 +1,5 @@
+digraph "7046" {
+1 [label="AbstractStringBuilder.append()" shape=box]
+2 [label="String" shape=ellipse]
+2 -> 1 [label="para"];
+}

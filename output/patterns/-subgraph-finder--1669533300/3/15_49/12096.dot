@@ -1,0 +1,8 @@
+digraph "12096" {
+1 [label="EGroumBuildingContext.removeScope()" shape=box]
+2 [label="EGroumBuildingContext" shape=ellipse]
+3 [label="EGroumBuildingContext.addScope()" shape=box]
+2 -> 3 [label="recv"];
+2 -> 1 [label="recv"];
+3 -> 1 [label="order"];
+}

@@ -105,4 +105,5 @@ public class AUGConfiguration {
 	public boolean buildTransitiveDataEdges = false;
 
 	public boolean encodeQualifiers = false;
+    public boolean disableSystemOut = false;
 }

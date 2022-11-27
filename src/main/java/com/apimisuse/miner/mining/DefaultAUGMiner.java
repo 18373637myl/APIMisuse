@@ -1,8 +1,9 @@
 package com.apimisuse.miner.mining;
 
-import de.tu_darmstadt.stg.mudetect.aug.model.*;
-import de.tu_darmstadt.stg.mudetect.aug.model.patterns.APIUsagePattern;
-import de.tu_darmstadt.stg.mudetect.aug.model.patterns.AggregateDataNode;
+import com.apimisuse.aug.model.*;
+import com.apimisuse.aug.model.patterns.APIUsagePattern;
+import com.apimisuse.aug.model.patterns.AggregateDataNode;
+import com.apimisuse.egroum.aug.AUGConfiguration;
 
 import java.io.IOException;
 import java.io.OutputStream;

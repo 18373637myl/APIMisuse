@@ -1,12 +1,12 @@
 package com.apimisuse.miner.mining;
 
-import de.tu_darmstadt.stg.mudetect.aug.model.APIUsageGraph;
-import de.tu_darmstadt.stg.mudetect.aug.model.DataNode;
-import de.tu_darmstadt.stg.mudetect.aug.model.Edge;
-import de.tu_darmstadt.stg.mudetect.aug.model.Node;
-import de.tu_darmstadt.stg.mudetect.aug.model.dataflow.ParameterEdge;
-import de.tu_darmstadt.stg.mudetect.aug.model.dataflow.ReceiverEdge;
-import de.tu_darmstadt.stg.mudetect.aug.visitors.AUGLabelProvider;
+import com.apimisuse.aug.model.APIUsageGraph;
+import com.apimisuse.aug.model.DataNode;
+import com.apimisuse.aug.model.Edge;
+import com.apimisuse.aug.model.Node;
+import com.apimisuse.aug.model.dataflow.ParameterEdge;
+import com.apimisuse.aug.model.dataflow.ReceiverEdge;
+import com.apimisuse.aug.visitors.AUGLabelProvider;
 
 import java.util.function.Predicate;
 import java.util.stream.Collectors;

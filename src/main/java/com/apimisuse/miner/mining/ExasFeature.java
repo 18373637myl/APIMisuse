@@ -1,7 +1,7 @@
 package com.apimisuse.miner.mining;
 
-import de.tu_darmstadt.stg.mudetect.aug.model.Node;
-import de.tu_darmstadt.stg.mudetect.aug.visitors.AUGLabelProvider;
+import com.apimisuse.aug.model.Node;
+import com.apimisuse.aug.visitors.AUGLabelProvider;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -1,6 +1,6 @@
 package com.apimisuse.miner.mining;
 
-import de.tu_darmstadt.stg.mudetect.aug.model.patterns.APIUsagePattern;
+import com.apimisuse.aug.model.patterns.APIUsagePattern;
 
 import java.util.Set;
 

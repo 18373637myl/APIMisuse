@@ -1,0 +1,24 @@
+digraph "1696" {
+1 [label="Iterator.next()" shape=box]
+2 [label="Iterator" shape=ellipse]
+3 [label="Iterator.hasNext()" shape=box]
+4 [label="Iterable.iterator()" shape=box]
+5 [label="HashSet" shape=ellipse]
+6 [label="HashSet.<init>" shape=box]
+7 [label="HashSet" shape=ellipse]
+2 -> 1 [label="recv"];
+2 -> 3 [label="recv"];
+3 -> 1 [label="order"];
+3 -> 1 [label="rep"];
+4 -> 1 [label="order"];
+4 -> 2 [label="def"];
+4 -> 3 [label="order"];
+4 -> 1 [label="rep"];
+5 -> 4 [label="recv"];
+6 -> 4 [label="order"];
+6 -> 3 [label="order"];
+6 -> 1 [label="order"];
+6 -> 5 [label="def"];
+6 -> 1 [label="rep"];
+7 -> 6 [label="para"];
+}

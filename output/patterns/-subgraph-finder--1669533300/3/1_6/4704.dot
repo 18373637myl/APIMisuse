@@ -1,0 +1,8 @@
+digraph "4704" {
+1 [label="Collection.add()" shape=box]
+2 [label="HashSet" shape=ellipse]
+3 [label="Collection.contains()" shape=box]
+1 -> 3 [label="order"];
+2 -> 3 [label="recv"];
+2 -> 1 [label="recv"];
+}

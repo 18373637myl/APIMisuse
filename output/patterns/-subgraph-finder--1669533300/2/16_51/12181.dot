@@ -1,0 +1,5 @@
+digraph "12181" {
+1 [label="String.isEmpty()" shape=box]
+2 [label="String" shape=ellipse]
+2 -> 1 [label="recv"];
+}

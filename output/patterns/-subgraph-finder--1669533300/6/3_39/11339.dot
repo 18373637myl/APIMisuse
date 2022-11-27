@@ -1,0 +1,16 @@
+digraph "11339" {
+1 [label="EGroumGraph.mergeParallel()" shape=box]
+2 [label="EGroumGraph" shape=ellipse]
+3 [label="EGroumGraph.<init>" shape=box]
+4 [label="EGroumBuildingContext" shape=ellipse]
+5 [label="AUGConfiguration" shape=ellipse]
+6 [label="<return>" shape=box]
+1 -> 6 [label="order"];
+2 -> 1 [label="recv"];
+2 -> 6 [label="para"];
+3 -> 1 [label="order"];
+3 -> 6 [label="order"];
+3 -> 2 [label="def"];
+4 -> 3 [label="para"];
+5 -> 3 [label="para"];
+}

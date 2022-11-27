@@ -1,0 +1,5 @@
+digraph "10112" {
+1 [label="CharSequence.length()" shape=box]
+2 [label="String" shape=ellipse]
+2 -> 1 [label="recv"];
+}

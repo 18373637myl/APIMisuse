@@ -1,15 +1,15 @@
 package com.apimisuse.miner.mining;
 
-import de.tu_darmstadt.stg.mudetect.aug.model.Edge;
-import de.tu_darmstadt.stg.mudetect.aug.model.actions.MethodCallNode;
-import de.tu_darmstadt.stg.mudetect.aug.model.Node;
-import de.tu_darmstadt.stg.mudetect.aug.model.patterns.APIUsagePattern;
+import com.apimisuse.aug.model.Edge;
+import com.apimisuse.aug.model.actions.MethodCallNode;
+import com.apimisuse.aug.model.Node;
+import com.apimisuse.aug.model.patterns.APIUsagePattern;
 
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import static de.tu_darmstadt.stg.mudetect.aug.model.Edge.Type.SYNCHRONIZE;
-import static de.tu_darmstadt.stg.mudetect.aug.model.Edge.Type.THROW;
+import static com.apimisuse.aug.model.Edge.Type.SYNCHRONIZE;
+import static com.apimisuse.aug.model.Edge.Type.THROW;
 
 public class MinPatternActionsModel implements Model {
 
